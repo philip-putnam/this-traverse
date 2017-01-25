@@ -13,6 +13,20 @@ var rogueOne = new Movie("Rogue One: A Star Wars Story", "PG-13", [1200, 1515, 1
 
 var moviesDatabase = [split, liveByNight, patriotsDay, hiddenFigures, rogueOne];
 
+// var militaryToTwelveHour = function(movieTimesArray) {
+//   var newTimes = [];
+//   for (var index = 0; index < movieTimesArray.length; index += 1) {
+//     var tempString = movieTimesArray[index].toString();
+//     if (movieTimesArray[index] < 1200 ) {
+//       tempString = tempString + " a.m."
+//     }
+//
+//
+//   }
+//
+// };
+
+
 // Back-end logic
 
 $(document).ready(function() {
